@@ -6,12 +6,13 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
     name: String,
     age: Number,
-    city: String
+    city: String,
+    gender: String
 
 });
 
 
 
-const User = mongoose.model("User", userSchema);
+const User1 = mongoose.model("User1", userSchema);
 
-module.exports = User;
+module.exports = User1;
